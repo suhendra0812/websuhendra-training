@@ -1,0 +1,64 @@
+.jumbotron {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 50px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.featured-image {
+    width: 50%;
+    max-height: 100%;
+    object-fit: fill ;
+    object-position: center;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+footer {
+    padding: 30px;
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile img {
+    width: 100px;
+}
+
+.profile li {
+    list-style: decimal;
+}
